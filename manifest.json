@@ -1,0 +1,53 @@
+
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://antunevichmaria12.github.io/gembitsky-autobiography/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Автобиография Ибрагима Рафаиловича Гембицкого",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "Вид документа",
+      "value": "рукописная автобиография"
+    },
+    {
+      "label": "Архив",
+      "value": "Белорусский государственный архив-музей литературы и искусства"
+    },
+    {
+      "label": "Архивный шифр",
+      "value": "фонд 82, опись 2, единица хранения 20, лист 9"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://antunevichmaria12.github.io/gembitsky-autobiography/manifest.json/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current Page Order",
+      "canvases": [
+        {
+          "@id": "https://antunevichmaria12.github.io/gembitsky-autobiography/manifest.json/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "Лист 9",
+          "width": 900,
+          "height": 1341,
+          "images": [
+            {
+              "@id": "https://antunevichmaria12.github.io/gembitsky-autobiography/manifest.json/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://antunevichmaria12.github.io/gembitsky-autobiography/page-01.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 900,
+                "height": 1341
+              },
+              "on": "https://antunevichmaria12.github.io/gembitsky-autobiography/manifest.json/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
